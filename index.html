@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=h1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/png" href="img/Favicon.png"> <!-- Corregido el tipo de imagen -->
 </head>
+
 <body>
-    <h1>Esta es mi pagina  web</h1>
-    <p>Esta es mi primera pagina :D</p>
+    <header>
+        <h1>Mundo Mascotas</h1>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la página Index -->
+    <main>
+        <section>
+            <h2>Encuentra a tu compañero ideal</h2> <!-- Corregido el texto -->
+            <div>
+                <img src="img/carruselFotoUno.jpg" alt="Foto1">
+                <img src="img/carruselFotoDos.jpg" alt="Foto2">
+                <img src="img/carruselFotoTres.jpg" alt="Foto3">
+                <img src="img/carruselFotoCuatro.jpg" alt="Foto4"> <!-- Corregido el cierre de comillas -->
+                <img src="img/carruselFotoCinco.jpg" alt="Foto5">
+            </div>
+            <button>❮</button>
+            <button>❯</button>
+        </section>
+        <p>En Mundo Mascota creemos que cada mascota es única y merece un hogar lleno de amor y cuidados especiales.</p>
+        <p> Nuestro equipo de expertos se dedica a brindarte toda la información necesaria para tomar las mejores
+            decisiones en el cuidado y bienestar de tus amigos peludos.</p>
+        </section>
+
+        <section class="destacados">
+            <h2>Mascotas Destacadas</h2>
+            <div class="mascota-destacada">
+                <!-- Tarjeta para Perro Destacado -->
+                <!-- Tarjeta para Perro Destacado -->
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/Beto.jpg" alt="Beto">
+                        </div>
+                        <div>
+                            <h3>Beto</h3>
+                            <p>Beto es un perro muy tierno y cariñoso.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta para Gato Destacado -->
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/Milu.jpg" alt="Milu">
+                        </div>
+                        <div>
+                            <h3>Milu</h3>
+                            <p>Milu es una gatina muy amigable y juguetona.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <section>
+                <section>
+                    <h2>Perritos en Adopción</h2>
+                    <p>Haz clic en el botón para conocer a un perrito en adopción</p>
+                    <div>
+                        <button id="btn-dog">Ver Perrito</button>
+                        <div id="dog-image">
+                            <!-- Aquí se mostrará la imagen obtenida -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección para Consumo de API: Imagen de Gato Aleatoria -->
+                <section >
+                    <h2>Gatitos en Adopción</h2>
+                    <p>Haz clic en el botón para conocer a un gatito en adopción</p>
+                    <div>
+                        <button id="btn-cat">Ver Gatito</button>
+                        <div id="cat-image">
+                            <!-- Aquí se mostrará la imagen obtenida -->
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <p>&copy; 2025 Mundo Mascota. Todos los derechos reservados.</p>
+    </footer>
 </body>
+
 </html>
